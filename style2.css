@@ -44,6 +44,7 @@ body{
 .container form .content{
     display: flex;
     flex-direction: column;
+    position: relative;
     width: 450px;
     gap: 10px;
     margin-top: 2rem;   
@@ -66,9 +67,9 @@ body{
     padding: 2px 20px;
     width: 601px;
     height: 57px;
-    font-weight: 300;
+    font-weight: 500;
     margin-left: 2px;
-    color:  #9D9999;
+    
 }
 .container form .rem{
     font-size: 20px;
@@ -83,6 +84,13 @@ body{
     font-weight: 700;
     border-radius: 57px;
     color:  #E8ECFB;
+    cursor: pointer;
+}
+.container form>input:hover{
+    background-color: white;
+    color: #27DA7A;
+    transition: background-color 0.3s ease;
+    border-color: white;
 }
 .container form>a{
     display: flex;
@@ -95,7 +103,25 @@ body{
     font-size: 22px;
     font-weight: 700;
     border-radius: 57px;
-    color:  #E8ECFB;
+    color: #E8ECFB;
+}
+.container form>a:hover{
+    background-color: white;
+    color: #085AFB;
+    transition: background-color 0.3s ease;
+    border-color: white;
+}
+
+.container form .content button{
+    position: absolute;
+    top: 65%;
+    right: 0.1rem;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+}
+.container form .content button>i{
+    font-size: 1.5rem;
 }
 
 

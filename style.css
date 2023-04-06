@@ -53,6 +53,15 @@
     mix-blend-mode: color-burn;
     width: 170px;
 }
+#nav .links .o:hover{
+    color: white;
+}
+#nav .links .us:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+    transition: all 0.3s ease;
+}
 #hero{
     display: flex;
     justify-content: space-between;
